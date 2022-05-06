@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+#skills {
+  /* background-color: antiquewhite; */
+  padding-bottom: 1px;
+  background-image: url(../Assets/profile-bk.png);
+ /* linear-gradient(8deg, rgb(138, 146, 224) 2%, rgb(228, 228, 228) 60%); */
+  
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  font-family: "Kanit", sans-serif;
+  color: #14315e;
+  margin: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  align-items: center;
+  padding: 0% !important;
+}
+
+.skills .card-wrapper {
+  margin: 2em;
+  border-radius: 12px;
+  min-width: 120px;
+  padding: 10px;
+  background: #fff;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  border: 1px solid #d3d3d3;
+  /* box-shadow: ; */
+}
+
+.skills .card-wrapper:hover {
+  top: -10px;
+  -webkit-box-shadow: 1px 24px 38px -9px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 1px 24px 38px -9px rgba(0, 0, 0, 0.94);
+  box-shadow: 1px 24px 38px -9px rgba(0, 0, 0, 0.94);
+}
+
+.skills p {
+  font-family: "Kanit", sans-serif;
+  font-size: 23px;
+  color: #68c01f;
+  margin: auto;
+}
+
+.container img {
+  padding: 10px 15px 15px 15px;
+}
+
+.container .fa-html5 {
+  color: #1f4ac0;
+}
+
+.container .fa-css3-alt {
+  color: #1f4ac0bd;
+}
+
+.container .fa-js {
+  color: #9acd32;
+}
+
+.container .fa-java {
+  color: #ff0000;
+}
+
+.container .fa-react {
+  color: rgba(0, 0, 0, 0.774);
+}
+
+@media (max-width: 450px) {
+  .skills {
+    display: block;
+  }
+}

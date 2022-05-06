@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.contact {
+  padding: 3% 4% 0 4%;
+}
+
+.contact .head-text {
+  font-family: "Kanit", sans-serif;
+  font-size: 300%;
+  color: #1105059f;
+  font-weight: 500;
+  margin: 0;
+}
+
+.contact .sub-text {
+  font-family: "Kanit", sans-serif;
+  font-size: 150%;
+  color: #dd1515;
+  margin: 0;
+}
+
+.details {
+  font-family: "Kanit", sans-serif;
+}
+
+.container .sign {
+  /* font-family:'sylatan'; */
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: #1e398a !important;
+}
+
+.container .fa-heart {
+  font-size: 120%;
+  padding: 1%;
+  color: #dd1515;
+}
+
+@media (max-width: 450px) {
+  .contact .row {
+    display: block;
+  }
+
+  .contact .container{
+      padding: 0 !important;
+  }
+}

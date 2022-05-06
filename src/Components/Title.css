@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.jumbotron {
+  /* background: #40b0bd !important; */
+  background-color: #fff !important;
+  font-family: "Kanit", sans-serif;
+  background-image: url(../Assets/soft-engg.png),
+    linear-gradient(
+      152deg,
+      #60bfdb,
+      #e5bcbc,
+      #f4f5f7,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: 92%;
+  min-height: 400px;
+}
+
+.cloud-container {
+  max-width: 100;
+  min-height: 50%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #40b0bd; */
+  /* background: linear-gradient(to bottom, #40b0bd 1%, #40b0bd 100%); */
+}
+
+.cloud-container {
+  /* background: url(../Assets/clouds.png); */
+  /* background-size: contain;
+  background-repeat: repeat;
+  background-color: #41b0bf; */
+  position: relative;
+}
+
+.cloud-container .main-div {
+  /* width: fit-content; */
+  display: contents;
+}
+
+.cloud-container .name {
+  font-weight: 500;
+  font-size: 55px;
+  margin-bottom: 0;
+  color: #14315e;
+  line-height: 70px;
+  margin-top: 5rem;
+}
+
+.cloud-container .sub-name {
+  color: #2e246b;
+  font-size: 22px;
+}
+
+.cloud-container .outlined-white {
+  background-color: #1c2354;
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px 25px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.jumbotron .scroll-link {
+  background-color: #191978;
+  color: #fff;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.jumbotron .scroll-link:hover {
+  background: rgb(255, 251, 251);
+  color: #41b0bf;
+  border: none;
+}
+
+.cloud-container .outlined-white:hover {
+  background: #d3d3d3;
+  /* color: #41b0bf; */
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  .jumbotron {
+    width: 100%;
+  }
+  /* .cloud-container {
+    width: 450px;
+  } */
+
+  #cloud-intro {
+    background:#191978;
+  }
+
+  .cloud-container .name {
+    /* color: #e8f1ed; */
+    display: contents;
+  }
+
+  .cloud-container .sub-name {
+    /* color: #e8f1ed; */
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 848px) {
+  .jumbotron {
+    min-height: 500px;
+    background-image: url(../Assets/soft-engg.png);
+  }
+}

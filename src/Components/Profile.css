@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.figure{
+    display: flex !important;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 30px;
+    /* background: #f0f8ff; */
+    margin: 0;
+}
+
+.profile-pic{
+    border-radius: 50% !important;
+    margin: 10px;
+    width:250px !important;
+    height:200px !important;
+}
+
+.figure .figure-caption{
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color: #838383;
+}
+
+i {
+    font-size: 40px;
+    color: #3b5999;
+    padding: 15px;
+}
+
+.fa-envelope{
+    color: #3b5999;  
+}
+
+.fa-linkedin{
+    color: #0077B5;
+}
+
+.fa-github{
+    color: rgb(179, 24, 96);
+}
+
+.fa-instagram{
+    color: #e4405f;
+}
+
+.fa-whatsapp{
+    color: #25D366;
+}
+
+@media (max-width: 450px) {
+    .figure {
+        display: block !important;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .profile-pic{
+        border-radius: 50% !important;
+        margin: 10px;
+        width:200px !important;
+        height:200px !important;
+    }
+
+    .social-links{
+        display: inline-block;
+    }
+  }
