@@ -45,7 +45,7 @@ export default class Profile extends React.Component {
             <ExternalLink href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hello,+I+will+like+to+connect+with+you.&to=k.abhikumbar.ak@gmail.com">
               <i className="fas fa-envelope"></i>
             </ExternalLink>
-            <ExternalLink href="https://wa.me/9028423992">
+            <ExternalLink href="https://wa.me/919028423992">
               <i class="fa fa-whatsapp whatsapp-icon"></i>
             </ExternalLink>
             <ExternalLink href="https://www.linkedin.com/in/nagbhushan-kumbar-4a3287229/">
