@@ -101,6 +101,7 @@
 
   .cloud-container .name {
     /* color: #e8f1ed; */
+    font-size: 2em;
     display: contents;
   }
 
