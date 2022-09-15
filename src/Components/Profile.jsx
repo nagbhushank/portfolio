@@ -23,8 +23,8 @@ export default class Profile extends React.Component {
               PCMC, Pune, India.
             </ExternalLink>{" "}
             I am a Software Engineer, currently working with awesome folks at{" "}
-            <ExternalLink href="https://4fin.in/">
-              4Fin Technologies Pvt Ltd..
+            <ExternalLink href="https://www.tatatechnologies.com/in">
+              TATA Technologies Pvt Ltd..
             </ExternalLink>
             &nbsp;&nbsp; &#x1F607;
           </p>
